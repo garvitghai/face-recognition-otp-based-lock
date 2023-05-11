@@ -110,7 +110,7 @@ void loop() {
         while (count2 < timesTosend) {
           delay(1500);
           ser.print("AT+CMGS=\"");
-          ser.print("8700748615");
+          ser.print("9999999999");// enter users mobile number here
           ser.println("\"");
           while (ser.read() != '>')
             ;
@@ -137,7 +137,7 @@ void loop() {
         while (count2 < timesTosend) {
           delay(1500);
           ser.print("AT+CMGS=\"");
-          ser.print("8700748615");
+          ser.print("9999999999");
           ser.println("\"");
           while (ser.read() != '>')
             ;
@@ -164,7 +164,7 @@ void loop() {
         while (count2 < timesTosend) {
           delay(1500);
           ser.print("AT+CMGS=\"");
-          ser.print("8700748615");
+          ser.print("9999999999");
           ser.println("\"");
           while (ser.read() != '>')
             ;
@@ -192,7 +192,7 @@ void loop() {
         while (count2 < timesTosend) {
           delay(1500);
           ser.print("AT+CMGS=\"");
-          ser.print("8700748615");
+          ser.print("9999999999");
           ser.println("\"");
           while (ser.read() != '>')
             ;
